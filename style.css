@@ -36,6 +36,7 @@
 body{
 	width: 100% !important;
     overflow-x: hidden;
+	overflow-y: scroll;
 	font-family: var(--iranyekan);
 	height: 4000px;
 }
@@ -359,7 +360,7 @@ color: var(--gray-400);
 }
 .digital-images{
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2,minmax(0,1fr));
 	width: 100%;
 	gap: 1px;
 }
