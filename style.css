@@ -38,7 +38,7 @@ body{
     overflow-x: hidden;
 	overflow-y: scroll;
 	font-family: var(--iranyekan);
-	height: 5000px;
+	
 }
 li{
 	list-style:none;
