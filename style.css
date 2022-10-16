@@ -354,16 +354,16 @@ color: var(--gray-400);
 	font-weight: bold;
 }
 .digital-box{
-	border: 1px solid var(--gray-200);
+	border: 1px solid var(--gray-100);
 	border-radius: 15px;
 }
 .digital-images{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	width: 30%;
+	width: 100%;
 	gap: 1px;
 }
-.digital-images a{
-	border-left: 1px solid red;
-	border-bottom: 1px solid red;
+.digital-images-box {
+	 border-left: 1px solid var(--gray-100);
+	
 }
