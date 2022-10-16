@@ -38,7 +38,7 @@ body{
     overflow-x: hidden;
 	overflow-y: scroll;
 	font-family: var(--iranyekan);
-	height: 4000px;
+	height: 5000px;
 }
 li{
 	list-style:none;
@@ -367,4 +367,99 @@ color: var(--gray-400);
 .digital-images-box {
 	 border-left: 1px solid var(--gray-100);
 	
+}
+/* footer section */
+.logo-footer{
+	width: 150px;
+}
+.footer-part{
+	border-top:1px solid var(--gray-100) ;
+}
+.footer-info{
+	color: #a1a3a8;
+}
+.footer-access{
+	display: grid;
+	grid-template-columns: repeat(5,auto);
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	
+}
+
+.footer-access p{
+	font-size: 1rem;
+	color: #424750;
+}
+
+/* footer menu */
+
+.footer-menu a{
+	line-height: 2.15;
+	color: #81858b;
+	font-weight: 400;
+}
+.footer-menu h4{
+	font-size: 1.2rem;
+	line-height: 2.15;
+	font-weight: 700;
+}
+.first-para {
+	font-size: 25px;
+}
+.social-network-icon{
+font-size: 30px;
+color: var(--gray-200);
+}
+.contact-us p{
+	font-size: 1.4rem;
+	line-height: 2.5;
+}
+.contact-us input{
+	background-color: var(--gray-100);
+	border-radius: 10px;
+	width: 70%;
+}
+.contact-us button{
+	background: var(--gray-100);
+	border: none;
+	width: 20%;
+}
+.contact-us input::placeholder{
+float: right;
+padding: 5px;
+
+}
+.description-footer{
+	border-top: 1px solid var(--gray-100);
+	border-bottom: 1px solid var(--gray-100);
+}
+.info-footer h4{
+	font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.15;
+}
+.info-footer p{
+	color:var(--gray-200);
+
+}
+.symbol-pay{
+	width: 25%;
+	height: 140px;
+}
+.symbol-pay img{
+	margin:10px;
+	width: 100%;
+	border: 1px solid var(--gray-200);
+}
+.logos{
+	background-color: var(--gray-100);
+	
+}
+.logos-top{
+	border-bottom: 1px solid var(--gray-200);
+}
+.logos img{
+	border-left: 1px solid var(--gray-200);
+
 }
